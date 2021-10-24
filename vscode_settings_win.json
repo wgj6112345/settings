@@ -1,0 +1,56 @@
+{
+    // global 
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "JetBrains mono",
+
+    // php 
+    // "php.executablePath": "/usr/bin/php",
+
+    // golang 
+    "go.gopath": "D:/mygo",
+    "go.goroot": "D:/go",
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.coverOnSave": false,
+    "go.gocodeAutoBuild": true,
+    "go.formatOnSave": true,
+    "go.toolsManagement.checkForUpdates": "off",
+    "go.formatTool": "gofmt",
+    "go.gotoSymbol.includeGoroot": true,
+    "go.inferGopath": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.gocodePackageLookupMode": "go",
+    "go.gotoSymbol.includeImports": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "go.docsTool": "gogetdoc",
+    "files.autoSave": "onFocusChange",
+
+    // power mode
+    "powermode.enabled": true,
+    "powermode.enableShake": false,
+    "powermode.comboTimeout": 5,
+    "editor.linkedEditing": true,
+    "open-in-browser.default": "Chrome",
+    "update.mode": "none",
+    "workbench.colorTheme": "Sonokai",
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": false,
+            "source.organizeImports": true
+          },
+    },
+    "remote.SSH.showLoginTerminal": true,
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": true
+    },
+    "go.useLanguageServer": true,
+}
